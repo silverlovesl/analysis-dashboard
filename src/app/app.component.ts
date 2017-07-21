@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app';
+  public layoutStatic: boolean = false;
+  public mobileMenuActive: boolean = true;
+  public rightpanelActived: boolean;
+
+  toggle(event) {
+    this.layoutStatic = !this.layoutStatic;
+  }
+
 }

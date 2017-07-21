@@ -1,0 +1,17 @@
+<div class="layout-sidebar" (mouseenter)="onMenuMouseEnter($event)" (mouseleave)="onMenuMouseLeave($event)" [ngClass]="{'layout-sidebar-active':sidebarActive}">
+  <div class="sidebar-logo">
+    <a href="dashboard.html">
+        <img src="assets/layout/images/logo-white.png"/>
+    </a>
+    <a class="sidebar-anchor animated fadeIn" title="Toggle Menu" (click)="toggle($event)">
+        <i class="fa"></i>
+    </a>
+  </div>
+  <div class="nano">
+    <div class="nano-content sidebar-scroll-content">
+      <div class="layout-menu-container">
+        <ul app-submenu="" [menuModel]="model" class="layout-menu" root="true" visible="true"></ul>
+      </div>
+    </div>
+  </div>
+</div>
