@@ -7,11 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   public layoutStatic: boolean = false;
-  public mobileMenuActive: boolean = true;
+  public mobileMenuActive: boolean;
   public rightpanelActived: boolean;
 
   toggle(event) {
     this.layoutStatic = !this.layoutStatic;
+    event.stopPropagation();
   }
 
+  onMaskClick(event) {
+    if (this.mobileMenuActive) {
+      this.mobileMenuActive = false;
+    }
+  }
 }

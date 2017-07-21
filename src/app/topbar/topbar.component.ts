@@ -12,7 +12,11 @@ export class TopbarComponent implements OnInit {
   ngOnInit() {
   }
 
-  toggle(event) {
+  toggleMenu(event) {
+    this.app.mobileMenuActive = !this.app.mobileMenuActive;
+    console.log(this.app.mobileMenuActive);
+  }
+  toggleRightPanel(event) {
     this.app.rightpanelActived = !this.app.rightpanelActived;
   }
 

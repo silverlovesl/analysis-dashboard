@@ -1,5 +1,5 @@
 <div class="layout-topbar">
-  <a class="menu-btn" href="#">
+  <a class="menu-btn" (click)="toggleMenu($event)" href="#">
       <i class="fa fa-bars"></i>
   </a>
 
@@ -121,7 +121,7 @@
     <a class="topbar-menu-btn">
         <img src="assets/layout/images/avatar.png">
     </a>
-    <a class="rightpanel-btn" (click)="toggle($event)" [ngClass]="{'rightpanel-btn-active':app.rightpanelActived}">
+    <a class="rightpanel-btn" (click)="toggleRightPanel($event)" [ngClass]="{'rightpanel-btn-active':app.rightpanelActived}">
         <i class="topbar-icon fa fa-fw fa-outdent"></i>
     </a>
   </div>

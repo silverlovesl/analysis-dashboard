@@ -6,7 +6,7 @@
       <router-outlet></router-outlet>
     </div>
     <app-footer></app-footer>
-    <div class="layout-main-mask " *ngIf="mobileMenuActive "></div>
+    <div class="layout-main-mask " *ngIf="mobileMenuActive" (click)="onMaskClick($event)"></div>
     <app-rightpanel></app-rightpanel>
   </div>
 
