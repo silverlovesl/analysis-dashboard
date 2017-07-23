@@ -2,7 +2,7 @@ import { Component, Input, OnInit, OnDestroy, EventEmitter, ViewChild, Inject, f
 import { trigger, state, style, transition, animate } from '@angular/animations';
 import { Location } from '@angular/common';
 import { MenuItem } from 'primeng/primeng';
-import { AppComponent } from '../app.component';
+import { AppComponent } from '../../app.component';
 
 @Component({
   selector: 'app-menu',

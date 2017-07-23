@@ -58,3 +58,22 @@
     border-radius: 0
   }
 }
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+//幅定義
+@for $i from 1 through 100 {
+  .wd-p-#{$i} {
+    width: percentage($i/100);
+  }
+}

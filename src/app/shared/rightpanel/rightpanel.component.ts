@@ -1,4 +1,4 @@
-import { AppComponent } from './../app.component';
+import { AppComponent } from '../../app.component';
 import { Component, OnInit, Inject, forwardRef } from '@angular/core';
 
 @Component({
