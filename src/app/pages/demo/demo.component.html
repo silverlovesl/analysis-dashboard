@@ -13,21 +13,21 @@
             <!-- ID -->
             <p-column field="id" header="ID" styleClass="text-center" styleClass="wd-p-5 text-right"></p-column>
             <!-- 氏名 -->
-            <p-column field="name" header="氏名" styleClass="text-center" styleClass="wd-p-10"></p-column>
+            <p-column field="name" header="氏名" styleClass="text-center"></p-column>
             <!-- 生年月日 -->
-            <p-column field="birthday" header="生年月日" styleClass="text-center" [sortable]="true" styleClass="wd-p-10">
+            <p-column field="birthday" header="生年月日" styleClass="text-center" [sortable]="true" styleClass="wd-p-10 text-center">
               <ng-template let-col let-data="rowData" pTemplate="body">
                 <span>{{data[col.field] | date:'yyyy/MM/dd'}}</span>
               </ng-template>
             </p-column>
             <!-- 年俸 -->
-            <p-column field="salary" header="年俸" styleClass="text-right" [sortable]="true" styleClass="wd-p-5 text-right">
+            <p-column field="salary" header="年俸" styleClass="text-right" [sortable]="true" styleClass="wd-p-10 text-right">
               <ng-template let-col let-data="rowData" pTemplate="body">
                 <span>{{data[col.field] | number}}</span>
               </ng-template>
             </p-column>
             <!-- 項目１ -->
-            <p-column field="type1" header="項目1" styleClass="text-right" styleClass="wd-p-5 text-right" [editable]="true">
+            <p-column field="type1" header="項目1" styleClass="text-right" styleClass="wd-p-10 text-right" [editable]="true">
               <ng-template let-col let-data="rowData" pTemplate="body">
                 <span>{{data[col.field] | number}}</span>
               </ng-template>
@@ -36,7 +36,7 @@
               </ng-template>
             </p-column>
             <!-- 項目2 -->
-            <p-column field="type2" header="項目2" styleClass="text-right" styleClass="wd-p-5 text-right" [editable]="true">
+            <p-column field="type2" header="項目2" styleClass="text-right" styleClass="wd-p-10 text-right" [editable]="true">
               <ng-template let-col let-data="rowData" pTemplate="body">
                 <span>{{data[col.field] | number}}</span>
               </ng-template>
@@ -45,7 +45,7 @@
               </ng-template>
             </p-column>
             <!-- 項目３ -->
-            <p-column field="type3" header="項目3" styleClass="text-right" styleClass="wd-p-5 text-right" [editable]="true">
+            <p-column field="type3" header="項目3" styleClass="text-right" styleClass="wd-p-10 text-right" [editable]="true">
               <ng-template let-col let-data="rowData" pTemplate="body">
                 <span>{{data[col.field] | number}}</span>
               </ng-template>
@@ -54,7 +54,7 @@
               </ng-template>
             </p-column>
             <!-- 項目４ -->
-            <p-column field="type4" header="項目4" styleClass="text-right" styleClass="wd-p-5 text-right" [editable]="true">
+            <p-column field="type4" header="項目4" styleClass="text-right" styleClass="wd-p-10 text-right" [editable]="true">
               <ng-template let-col let-data="rowData" pTemplate="body">
                 <span>{{data[col.field] | number}}</span>
               </ng-template>
@@ -63,7 +63,7 @@
               </ng-template>
             </p-column>
             <!-- 項目５ -->
-            <p-column field="type5" header="項目5" styleClass="text-right" styleClass="wd-p-5 text-right" [editable]="true">
+            <p-column field="type5" header="項目5" styleClass="text-right" styleClass="wd-p-10 text-right" [editable]="true">
               <ng-template let-col let-data="rowData" pTemplate="body">
                 <span>{{data[col.field] | number}}</span>
               </ng-template>
