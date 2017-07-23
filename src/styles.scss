@@ -1,1 +1,60 @@
-/* You can add global styles to this file, and also import other style files */
+.ui-fluid .ui-inputgroup .ui-button {
+  width: auto
+}
+
+.ui-fluid .ui-inputgroup .ui-inputtext {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  width: 1%
+}
+
+.ui-inputgroup .ui-chkbox,
+.ui-inputgroup .ui-radiobutton {
+  margin-right: 0;
+  vertical-align: bottom
+}
+
+.ui-inputgroup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  &-addon {
+    display: inline-block;
+    text-align: center;
+    min-width: 2em!important;
+    padding: .25em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d6d6d6;
+    background-color: #f0f0f0;
+    color: #222222;
+    font-weight: 400;
+    font-size: 16px;
+    &+& {
+      border-left: 0 none;
+    }
+  }
+  .ui-inputtext {
+    padding-left: .5em;
+    &:not(:first-child) {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      border-left: 0 none!important;
+    }
+    &:not(:last-child) {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      border-right: 0 none!important;
+    }
+    &:enabled:focus:not(.ui-state-error) {
+      border-top: 1px solid #61a5ef!important;
+      border-bottom: 1px solid #61a5ef!important;
+      box-shadow: 0 0 3px 0 #61a5ef;
+    }
+  }
+  .ui-button {
+    margin-right: 0;
+    border-radius: 0
+  }
+}

@@ -21,14 +21,17 @@
       "../node_modules/font-awesome/css/font-awesome.min.css",
       "../node_modules/primeng/resources/primeng.min.css",
       "../node_modules/nanoscroller/bin/css/nanoscroller.css",
+      "../node_modules/pace-js/themes/red/pace-theme-material.css",
       "./assets/layout/css/layout-blue.css",
       "./assets/theme/theme-blue.css",
-
       "styles.scss"
     ],
     "scripts": [
       "../node_modules/jquery/dist/jquery.js",
-      "../node_modules/nanoscroller/bin/javascripts/jquery.nanoscroller.js"
+      "../node_modules/nanoscroller/bin/javascripts/jquery.nanoscroller.js",
+      "../node_modules/pace-js/pace.min.js",
+      "../node_modules/chart.js/dist/Chart.min.js",
+      "./assets/scripts/script.js"
     ],
     "environmentSource": "environments/environment.ts",
     "environments": {

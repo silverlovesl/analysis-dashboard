@@ -24,7 +24,7 @@ export class AppMenuComponent implements OnInit {
   ngOnInit() {
 
     this.model = [
-      { label: 'Dashboard', icon: 'fa fa-fw fa-home', routerLink: ['/'] },
+      { label: 'Home', icon: 'fa fa-fw fa-home', routerLink: ['/demo'] },
       {
         label: 'Components', icon: 'fa fa-fw fa-sitemap',
         items: [
@@ -121,7 +121,7 @@ export class AppMenuComponent implements OnInit {
   selector: '[app-submenu]',
   template: `
     <li *ngFor="let menu of menus; count as count; index as i" (click)="toggle($event,menu)" [ngClass]="{'active-menuitem':menu.actived }">
-      <a class="active-menuitem-routerlink" href="#/">
+      <a class="active-menuitem-routerlink" href="#/" [routerLink]="menu.routerLink">
         <i [ngClass]="menu.icon"></i>
         <span class="">{{menu.label}}</span>
         <i class="fa fa-fw fa-angle-down layout-submenu-toggler" *ngIf="menu.items && menu.items.length >0"></i>
