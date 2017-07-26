@@ -12,9 +12,13 @@ export class DemoComponent implements OnInit {
   public chartJSData: any;
   public competencyValue: number;
   public demoData: DemoModel[];
+  public filterData: DemoModel[];
+  public nameFilter: string;
   @ViewChild("myRadarChart") myRadarChart: UIChart;
 
-  constructor() { }
+  constructor() {
+    this.filterData = [];
+  }
 
   ngOnInit() {
 
@@ -23,11 +27,11 @@ export class DemoComponent implements OnInit {
     }
 
     this.demoData = [
-      { id: 1, name: "User1", birthday: new Date(2017, 7, 1).toDateString(), salary: 5000000, type1: 1100, type2: 2000, type3: 3000, type4: 4000, type5: 5000 },
-      { id: 2, name: "User2", birthday: new Date(2017, 7, 2).toDateString(), salary: 4000000, type1: 7850, type2: 3100, type3: 3100, type4: 4100, type5: 5100 },
-      { id: 3, name: "User3", birthday: new Date(2017, 7, 3).toDateString(), salary: 6000000, type1: 2452, type2: 1230, type3: 3200, type4: 4200, type5: 5200 },
-      { id: 4, name: "User4", birthday: new Date(2017, 7, 4).toDateString(), salary: 7000000, type1: 3567, type2: 1300, type3: 3300, type4: 4300, type5: 5300 },
-      { id: 5, name: "User5", birthday: new Date(2017, 7, 5).toDateString(), salary: 8500000, type1: 4400, type2: 2400, type3: 3410, type4: 4400, type5: 5400 },
+      { id: 1, name: "鈴木陽子", birthday: new Date(2017, 7, 1).toDateString(), salary: 5000000, type1: 1100, type2: 2000, type3: 3000, type4: 4000, type5: 5000 },
+      { id: 2, name: "Steve Jobs", birthday: new Date(2017, 7, 2).toDateString(), salary: 4000000, type1: 7850, type2: 3100, type3: 3100, type4: 4100, type5: 5100 },
+      { id: 3, name: "夏目漱石", birthday: new Date(2017, 7, 3).toDateString(), salary: 6000000, type1: 2452, type2: 1230, type3: 3200, type4: 4200, type5: 5200 },
+      { id: 4, name: "코고 세", birthday: new Date(2017, 7, 4).toDateString(), salary: 7000000, type1: 3567, type2: 1300, type3: 3300, type4: 4300, type5: 5300 },
+      { id: 5, name: "🍎　🔞", birthday: new Date(2017, 7, 5).toDateString(), salary: 8500000, type1: 4400, type2: 2400, type3: 3410, type4: 4400, type5: 5400 },
       { id: 6, name: "User6", birthday: new Date(2017, 7, 6).toDateString(), salary: 1200000, type1: 150, type2: 5500, type3: 3500, type4: 4500, type5: 5500 },
       { id: 7, name: "User7", birthday: new Date(2017, 7, 7).toDateString(), salary: 3200000, type1: 1500, type2: 2500, type3: 3500, type4: 4500, type5: 5500 },
       { id: 8, name: "User8", birthday: new Date(2017, 7, 8).toDateString(), salary: 900000, type1: 1500, type2: 2500, type3: 3500, type4: 4500, type5: 5500 },
@@ -77,6 +81,15 @@ export class DemoComponent implements OnInit {
     const G = Math.floor(Math.random() * 255);
     const B = Math.floor(Math.random() * 255);
     return [`rgba(${R},${G},${B},0.2)`, `rgba(${R},${G},${B},1)`];
+  }
+
+  onDataFilter(event) {
+    console.log(this.filterData);
+  }
+
+  getFilteredData(key: any) {
+    console.log(key.filteredValue);
+    // console.log(key);
   }
 
 }
