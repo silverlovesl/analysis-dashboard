@@ -14,6 +14,7 @@ import { AppMenuComponent, AppSubMenuComponent } from './shared/menu/menu.compon
 import { TopbarComponent } from './shared/topbar/topbar.component';
 import { RightpanelComponent } from './shared/rightpanel/rightpanel.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { AngularEchartsModule } from 'ngx-echarts';
 // Custom Page---------------------------------------------------------------------------------------
 import { DemoComponent } from './pages/demo/demo.component';
 
@@ -35,7 +36,8 @@ import { DemoComponent } from './pages/demo/demo.component';
     InputTextModule,
     DataTableModule,
     SharedModule,
-    ChartModule
+    ChartModule,
+    AngularEchartsModule
   ],
   providers: [AppRoutingProviders],
   bootstrap: [AppComponent],

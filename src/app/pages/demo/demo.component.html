@@ -81,7 +81,17 @@
   </section>
   <section class="ui-g-4 ui-md-4 ui-sm-12">
     <div class="card shadow-box ui-shadow-1">
-      <p-chart #myRadarChart type="radar" [data]="chartJSData"></p-chart>
+      <p-chart #myRadarChart type="radar" [data]="chartJSData" height="270"></p-chart>
+    </div>
+  </section>
+  <section class="ui-g-6 ui-md-6 ui-sm-12">
+    <div class="card shadow-box ui-shadow-1">
+      <div echarts [options]="xxChart" style="width:100%;height:600px;"></div>
+    </div>
+  </section>
+  <section class="ui-g-6 ui-md-6 ui-sm-12">
+    <div class="card shadow-box ui-shadow-1">
+      <div echarts [options]="correlationChart" style="width:100%;height:600px;"></div>
     </div>
   </section>
 </article>

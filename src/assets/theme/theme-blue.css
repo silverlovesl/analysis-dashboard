@@ -906,9 +906,10 @@ body .ui-fileupload .ui-fileupload-buttonbar {
         content: ""; }
 body .ui-fileupload .ui-progressbar {
   top: 0; }
-body .ui-fileupload-choose.ui-button:not(.ui-state-disabled):hover, body .ui-fileupload-choose.ui-button:not(.ui-state-disabled):focus {
+body .ui-fileupload-choose:not(.ui-state-disabled):hover,
+body .ui-fileupload-choose.ui-state-focus {
   background-color: #0e71dc; }
-body .ui-fileupload-choose.ui-button:not(.ui-state-disabled):active {
+body .ui-fileupload-choose:not(.ui-state-disabled):active {
   background-color: #0d64c4; }
 body .ui-password-panel {
   -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
@@ -1498,6 +1499,8 @@ body .ui-carousel {
 body .ui-organizationchart .ui-organizationchart-node-content.ui-organizationchart-selectable-node:not(.ui-state-highlight):hover {
   background-color: #f1f2f7;
   color: #434560; }
+body .ui-organizationchart .ui-organizationchart-node-content.ui-state-highlight .ui-node-toggler i {
+  color: #08407d; }
 body .ui-organizationchart .ui-organizationchart-line-down {
   background-color: #9a9cab; }
 body .ui-organizationchart .ui-organizationchart-line-left {
@@ -1507,7 +1510,9 @@ body .ui-organizationchart .ui-organizationchart-line-top {
 body .ui-organizationchart .ui-organizationchart-node-content {
   border-color: #9a9cab; }
 body .ui-organizationchart .ui-organizationchart-node-content .ui-node-toggler {
-  color: #9a9cab; }
+  color: #9a9cab;
+  bottom: -.7em;
+  margin-left: -.46em; }
 body .ui-treetable .ui-treetable-header {
   padding: 0.5em 1em; }
 body .ui-treetable .ui-treetable-footer {

@@ -31,6 +31,8 @@
       "../node_modules/nanoscroller/bin/javascripts/jquery.nanoscroller.js",
       "../node_modules/pace-js/pace.min.js",
       "../node_modules/chart.js/dist/Chart.min.js",
+      "../node_modules/echarts/dist/echarts.min.js",
+      "../node_modules/echarts/dist/extension/dataTool.min.js",
       "./assets/scripts/script.js"
     ],
     "environmentSource": "environments/environment.ts",
