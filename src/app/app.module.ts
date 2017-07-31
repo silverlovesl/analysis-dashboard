@@ -1,13 +1,20 @@
+import { CookieService } from './services/cookie.service';
+import { DemoService } from './services/demo.service';
 // System Module-------------------------------------------------------------------------------------
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA, enableProdMode } from '@angular/core';
+import { HttpModule } from '@angular/http';
 import { MyRouterModule, AppRoutingProviders } from './routers';
 import { FormsModule, NgControl } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 // Primeng Module------------------------------------------------------------------------------------
-import { InputTextModule } from 'primeng/primeng';
-import { DataTableModule, SharedModule } from 'primeng/primeng';
-import { ChartModule } from 'primeng/primeng';
+import {
+  InputTextModule,
+  MultiSelectModule,
+  DataTableModule,
+  SharedModule,
+  ChartModule
+} from 'primeng/primeng';
 // Shared Component----------------------------------------------------------------------------------
 import { AppComponent } from './app.component';
 import { AppMenuComponent, AppSubMenuComponent } from './shared/menu/menu.component';
@@ -37,9 +44,14 @@ import { DemoComponent } from './pages/demo/demo.component';
     DataTableModule,
     SharedModule,
     ChartModule,
-    AngularEchartsModule
+    AngularEchartsModule,
+    HttpModule
   ],
-  providers: [AppRoutingProviders],
+  providers: [
+    AppRoutingProviders,
+    CookieService,
+    DemoService
+  ],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })

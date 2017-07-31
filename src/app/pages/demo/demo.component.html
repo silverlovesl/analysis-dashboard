@@ -1,97 +1,102 @@
 <article class="ui-g">
-  <section class="ui-g-8 ui-md-8 ui-sm-12">
+  <section class="ui-g-8 ui-lg-8 ui-md-12 ui-sm-12">
     <div class="card shadow-box ui-shadow-1">
-      <div class="ui-g">
-        <div class="ui-g-12 ui-md-12">
-          <div class="ui-widget-header" style="padding:4px 10px;border-bottom: 0 none">
-            <i class="fa fa-search" style="margin:4px 4px 0 0"></i>
-            <input #gbF type="text" pInputText size="50" placeholder="Global Filter">
-          </div>
-          <p-dataTable #dt [value]="demoData" [rows]="10" [filteredValue]="filterData" (onFilter)="getFilteredData(dt)" [globalFilter]="gbF"
-            [paginator]="true" [pageLinks]="3" [editable]="true">
-            <!-- ID -->
-            <p-column field="id" header="ID" styleClass="text-center" styleClass="wd-p-5 text-right"></p-column>
-            <!-- 氏名 -->
-            <p-column field="name" header="氏名" styleClass="text-center" [filter]="true" filterPlaceholder="Search" filterMatchMode="contains">
-              <!-- <ng-template pTemplate="filter" let-col>
+      <div class="ui-widget-header" style="padding:4px 10px;border-bottom: 0 none">
+        <i class="fa fa-search" style="margin:4px 4px 0 0"></i>
+        <input #gbF type="text" pInputText size="50" placeholder="Global Filter">
+      </div>
+      <p-dataTable #dt [value]="demoData | async" [rows]="10" [filteredValue]="filterData" (onFilter)="getFilteredData(dt)" [globalFilter]="gbF" [paginator]="true" [pageLinks]="3" [editable]="true">
+        <!-- ID -->
+        <p-column field="id" header="ID" styleClass="text-center" styleClass="wd-p-5 text-right"></p-column>
+        <!-- 氏名 -->
+        <p-column field="name" header="氏名" styleClass="text-center" [filter]="true" filterPlaceholder="Search" filterMatchMode="contains">
+          <!-- <ng-template pTemplate="filter" let-col>
                 <input pInputText class="ui-column-filter" [(ngModel)]="nameFilter" (keyup)="dt."/>
               </ng-template>  -->
-            </p-column>
-            <!-- 生年月日 -->
-            <p-column field="birthday" header="生年月日" styleClass="text-center" [sortable]="true" styleClass="text-center">
-              <ng-template let-col let-data="rowData" pTemplate="body">
-                <span>{{data[col.field] | date:'yyyy/MM/dd'}}</span>
-              </ng-template>
-            </p-column>
-            <!-- 年俸 -->
-            <p-column field="salary" header="年俸" styleClass="text-right" [sortable]="true" styleClass="text-right">
-              <ng-template let-col let-data="rowData" pTemplate="body">
-                <span>{{data[col.field] | number}}</span>
-              </ng-template>
-            </p-column>
-            <!-- 項目１ -->
-            <p-column field="type1" header="項目1" styleClass="text-right" styleClass="wd-p-10 text-right" [editable]="true">
-              <ng-template let-col let-data="rowData" pTemplate="body">
-                <span>{{data[col.field] | number}}</span>
-              </ng-template>
-              <ng-template let-col let-data="rowData" pTemplate="editor" let-ri="rowIndex">
-                <input type="text" pInputText [(ngModel)]="data[col.field]" required="true" (change)="onTypeValueChanged($event,data,ri)">
-              </ng-template>
-            </p-column>
-            <!-- 項目2 -->
-            <p-column field="type2" header="項目2" styleClass="text-right" styleClass="wd-p-10 text-right" [editable]="true">
-              <ng-template let-col let-data="rowData" pTemplate="body">
-                <span>{{data[col.field] | number}}</span>
-              </ng-template>
-              <ng-template let-col let-data="rowData" pTemplate="editor" let-ri="rowIndex">
-                <input type="text" pInputText [(ngModel)]="data[col.field]" required="true" (change)="onTypeValueChanged($event,data,ri)">
-              </ng-template>
-            </p-column>
-            <!-- 項目３ -->
-            <p-column field="type3" header="項目3" styleClass="text-right" styleClass="wd-p-10 text-right" [editable]="true">
-              <ng-template let-col let-data="rowData" pTemplate="body">
-                <span>{{data[col.field] | number}}</span>
-              </ng-template>
-              <ng-template let-col let-data="rowData" pTemplate="editor" let-ri="rowIndex">
-                <input type="text" pInputText [(ngModel)]="data[col.field]" required="true" (change)="onTypeValueChanged($event,data,ri)">
-              </ng-template>
-            </p-column>
-            <!-- 項目４ -->
-            <p-column field="type4" header="項目4" styleClass="text-right" styleClass="wd-p-10 text-right" [editable]="true">
-              <ng-template let-col let-data="rowData" pTemplate="body">
-                <span>{{data[col.field] | number}}</span>
-              </ng-template>
-              <ng-template let-col let-data="rowData" pTemplate="editor" let-ri="rowIndex">
-                <input type="text" pInputText [(ngModel)]="data[col.field]" required="true" (change)="onTypeValueChanged($event,data,ri)">
-              </ng-template>
-            </p-column>
-            <!-- 項目５ -->
-            <p-column field="type5" header="項目5" styleClass="text-right" styleClass="wd-p-10 text-right" [editable]="true">
-              <ng-template let-col let-data="rowData" pTemplate="body">
-                <span>{{data[col.field] | number}}</span>
-              </ng-template>
-              <ng-template let-col let-data="rowData" pTemplate="editor" let-ri="rowIndex">
-                <input type="text" pInputText [(ngModel)]="data[col.field]" required="true" (change)="onTypeValueChanged($event,data,ri)">
-              </ng-template>
-            </p-column>
-          </p-dataTable>
-        </div>
-      </div>
+        </p-column>
+        <!-- 生年月日 -->
+        <p-column field="birthday" header="生年月日" styleClass="text-center" [sortable]="true" styleClass="text-center">
+          <ng-template let-col let-data="rowData" pTemplate="body">
+            <span>{{data[col.field] | date:'yyyy/MM/dd'}}</span>
+          </ng-template>
+        </p-column>
+        <!-- 年俸 -->
+        <p-column field="salary" header="年俸" styleClass="text-right" [sortable]="true" styleClass="text-right">
+          <ng-template let-col let-data="rowData" pTemplate="body">
+            <span>{{data[col.field] | number}}</span>
+          </ng-template>
+        </p-column>
+        <!-- 項目１ -->
+        <p-column field="type1" header="項目1" styleClass="text-right" styleClass="wd-p-10 text-right" [editable]="true">
+          <ng-template let-col let-data="rowData" pTemplate="body">
+            <span>{{data[col.field] | number}}</span>
+          </ng-template>
+          <ng-template let-col let-data="rowData" pTemplate="editor" let-ri="rowIndex">
+            <input type="text" pInputText [(ngModel)]="data[col.field]" required="true" (change)="onTypeValueChanged($event,data,ri)">
+          </ng-template>
+        </p-column>
+        <!-- 項目2 -->
+        <p-column field="type2" header="項目2" styleClass="text-right" styleClass="wd-p-10 text-right" [editable]="true">
+          <ng-template let-col let-data="rowData" pTemplate="body">
+            <span>{{data[col.field] | number}}</span>
+          </ng-template>
+          <ng-template let-col let-data="rowData" pTemplate="editor" let-ri="rowIndex">
+            <input type="text" pInputText [(ngModel)]="data[col.field]" required="true" (change)="onTypeValueChanged($event,data,ri)">
+          </ng-template>
+        </p-column>
+        <!-- 項目３ -->
+        <p-column field="type3" header="項目3" styleClass="text-right" styleClass="wd-p-10 text-right" [editable]="true">
+          <ng-template let-col let-data="rowData" pTemplate="body">
+            <span>{{data[col.field] | number}}</span>
+          </ng-template>
+          <ng-template let-col let-data="rowData" pTemplate="editor" let-ri="rowIndex">
+            <input type="text" pInputText [(ngModel)]="data[col.field]" required="true" (change)="onTypeValueChanged($event,data,ri)">
+          </ng-template>
+        </p-column>
+        <!-- 項目４ -->
+        <p-column field="type4" header="項目4" styleClass="text-right" styleClass="wd-p-10 text-right" [editable]="true">
+          <ng-template let-col let-data="rowData" pTemplate="body">
+            <span>{{data[col.field] | number}}</span>
+          </ng-template>
+          <ng-template let-col let-data="rowData" pTemplate="editor" let-ri="rowIndex">
+            <input type="text" pInputText [(ngModel)]="data[col.field]" required="true" (change)="onTypeValueChanged($event,data,ri)">
+          </ng-template>
+        </p-column>
+        <!-- 項目５ -->
+        <p-column field="type5" header="項目5" styleClass="text-right" styleClass="wd-p-10 text-right" [editable]="true">
+          <ng-template let-col let-data="rowData" pTemplate="body">
+            <span>{{data[col.field] | number}}</span>
+          </ng-template>
+          <ng-template let-col let-data="rowData" pTemplate="editor" let-ri="rowIndex">
+            <input type="text" pInputText [(ngModel)]="data[col.field]" required="true" (change)="onTypeValueChanged($event,data,ri)">
+          </ng-template>
+        </p-column>
+      </p-dataTable>
     </div>
   </section>
-  <section class="ui-g-4 ui-md-4 ui-sm-12">
+  <section class="ui-g-4 ui-lg-4 ui-md-12 ui-sm-12">
     <div class="card shadow-box ui-shadow-1">
       <p-chart #myRadarChart type="radar" [data]="chartJSData" height="270"></p-chart>
     </div>
   </section>
-  <section class="ui-g-6 ui-md-6 ui-sm-12">
+  <section class="ui-g-12 ui-lg-6 ui-md-6 ui-sm-12">
     <div class="card shadow-box ui-shadow-1">
-      <div echarts [options]="xxChart" style="width:100%;height:600px;"></div>
+      <div echarts [options]="plotChart" style="width:100%;height:600px;"></div>
     </div>
   </section>
-  <section class="ui-g-6 ui-md-6 ui-sm-12">
+  <section class="ui-g-12 ui-lg-6 ui-md-6 ui-sm-12">
     <div class="card shadow-box ui-shadow-1">
       <div echarts [options]="correlationChart" style="width:100%;height:600px;"></div>
+    </div>
+  </section>
+  <section class="ui-g-6 ui-lg-6 ui-md-6 ui-sm-12">
+    <div class="card shadow-box ui-shadow-1">
+      <div echarts [options]="mapChart_JAPAN" style="width:100%;height:600px;"></div>
+    </div>
+  </section>
+  <section class="ui-g-6 ui-lg-6 ui-md-6 ui-sm-12">
+    <div class="card shadow-box ui-shadow-1">
+      <div echarts [options]="mapChart_WORLD" style="width:100%;height:600px;"></div>
     </div>
   </section>
 </article>
