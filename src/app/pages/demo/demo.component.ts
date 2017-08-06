@@ -23,6 +23,7 @@ export class DemoComponent implements OnInit {
   public filterData: DemoModel[];
   public correlationChart: any;
   public plotChart: any;
+  public forceLayoutChart: any;
   public mapChart_JAPAN: any;
   public mapChart_WORLD: any;
   public correlationChartAxisLabel: string[] = ['課題設定', '解決意向', '個人的実行力', '創造性', '論理的思考', '疑う力', '内的価値', 'ヴィジョン', '自己効力', '成長', '興味', '耐性', '感情コントロール', '表現力', '共感・傾聴力', '外交性', '柔軟性', '決断力', '寛容', '影響力の行使', '情熱・宣教力', '組織への働きかけ', '地球市民', '組織へのコミットメント', '誠実さ'];
@@ -47,6 +48,11 @@ export class DemoComponent implements OnInit {
       this.initCorrelationChart(res);
     });
 
+    //ForceLayoutデータチャート
+    this.demoService.getDynamic<{ data: Array<any>, links: Array<any>, categories: Array<any> }>("/demo/forcelayout-chart.json", {}).subscribe(res => {
+      this.initForceLayoutChart(res);
+    });
+
     //地図(Japan)データ取得
     this.demoService.get<Geography>(Geography, "/geo/japan.json", {}).subscribe(res => {
       this.initJapanMapChart(res);
@@ -59,9 +65,6 @@ export class DemoComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.zone.runOutsideAngular(() => {
-
-    });
   }
 
   onChangeCompetencyValue(event: Event) {
@@ -256,6 +259,58 @@ export class DemoComponent implements OnInit {
           data: data.outliers
         }
       ]
+    };
+  }
+
+  private initForceLayoutChart(model: { data: Array<any>, links: Array<any>, categories: Array<any> }) {
+    this.forceLayoutChart = {
+      title: {
+        text: "コンピテンシーデータ",
+        subtext: "A社",
+        top: "top",
+        left: "center"
+      },
+      tooltip: {},
+      legend: [{
+        formatter: function (name) {
+          return echarts.format.truncateText(name, 40, '14px Microsoft Yahei', '…');
+        },
+        tooltip: {
+          show: true
+        },
+        selectedMode: 'false',
+        bottom: 20
+      }],
+      animationDuration: 3000,
+      animationEasingUpdate: 'quinticInOut',
+      series: [{
+        name: 'コンピテンシー',
+        type: 'graph',
+        layout: 'force',
+        force: {
+          repulsion: 100
+        },
+        data: model.data,
+        links: model.links,
+        categories: model.categories,
+        focusNodeAdjacency: true,
+        roam: true,
+        label: {
+          normal: {
+
+            show: true,
+            position: 'top',
+
+          }
+        },
+        lineStyle: {
+          normal: {
+            color: 'source',
+            curveness: 0,
+            type: "solid"
+          }
+        }
+      }]
     };
   }
 

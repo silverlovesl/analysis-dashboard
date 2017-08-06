@@ -1,0 +1,812 @@
+{
+  "data": {
+    "data": [{
+        "name": "コンピテンシー",
+        "symbolSize": 20,
+        "draggable": "true",
+        "value": 27
+      },
+      {
+        "name": "課題設定",
+        "value": 10,
+        "symbolSize": 9,
+        "category": "コンピテンシー",
+        "draggable": "true"
+      },
+      {
+        "name": "解決意向",
+        "value": 10,
+        "symbolSize": 9,
+        "category": "コンピテンシー",
+        "draggable": "true"
+      },
+      {
+        "name": "個人的実行力",
+        "value": 10,
+        "symbolSize": 9,
+        "category": "コンピテンシー",
+        "draggable": "true"
+      },
+      {
+        "name": "創造性",
+        "value": 10,
+        "symbolSize": 9,
+        "category": "コンピテンシー",
+        "draggable": "true"
+      },
+      {
+        "name": "論理的思考",
+        "value": 10,
+        "symbolSize": 9,
+        "category": "コンピテンシー",
+        "draggable": "true"
+      },
+      {
+        "name": "疑う力",
+        "value": 10,
+        "symbolSize": 9,
+        "category": "コンピテンシー",
+        "draggable": "true"
+      },
+      {
+        "name": "内的価値",
+        "value": 10,
+        "symbolSize": 9,
+        "category": "コンピテンシー",
+        "draggable": "true"
+      },
+      {
+        "name": "ヴィジョン",
+        "value": 10,
+        "symbolSize": 9,
+        "category": "コンピテンシー",
+        "draggable": "true"
+      },
+      {
+        "name": "自己効力",
+        "value": 10,
+        "symbolSize": 9,
+        "category": "コンピテンシー",
+        "draggable": "true"
+      },
+      {
+        "name": "成長",
+        "value": 10,
+        "symbolSize": 9,
+        "category": "コンピテンシー",
+        "draggable": "true"
+      },
+      {
+        "name": "興味",
+        "value": 10,
+        "symbolSize": 9,
+        "category": "コンピテンシー",
+        "draggable": "true"
+      },
+      {
+        "name": "耐性",
+        "value": 10,
+        "symbolSize": 9,
+        "category": "コンピテンシー",
+        "draggable": "true"
+      },
+      {
+        "name": "感情コントロール",
+        "value": 10,
+        "symbolSize": 9,
+        "category": "コンピテンシー",
+        "draggable": "true"
+      },
+      {
+        "name": "表現力",
+        "value": 10,
+        "symbolSize": 9,
+        "category": "コンピテンシー",
+        "draggable": "true"
+      },
+      {
+        "name": "共感・傾聴力",
+        "value": 10,
+        "symbolSize": 9,
+        "category": "コンピテンシー",
+        "draggable": "true"
+      },
+      {
+        "name": "外交性",
+        "value": 10,
+        "symbolSize": 9,
+        "category": "コンピテンシー",
+        "draggable": "true"
+      },
+      {
+        "name": "柔軟性",
+        "value": 10,
+        "symbolSize": 9,
+        "category": "コンピテンシー",
+        "draggable": "true"
+      },
+      {
+        "name": "決断力",
+        "value": 10,
+        "symbolSize": 9,
+        "category": "コンピテンシー",
+        "draggable": "true"
+      },
+      {
+        "name": "寛容",
+        "value": 10,
+        "symbolSize": 9,
+        "category": "コンピテンシー",
+        "draggable": "true"
+      },
+      {
+        "name": "影響力の行使",
+        "value": 10,
+        "symbolSize": 9,
+        "category": "コンピテンシー",
+        "draggable": "true"
+      },
+      {
+        "name": "情熱・宣教力",
+        "value": 10,
+        "symbolSize": 9,
+        "category": "コンピテンシー",
+        "draggable": "true"
+      },
+      {
+        "name": "組織への働きかけ",
+        "value": 10,
+        "symbolSize": 9,
+        "category": "コンピテンシー",
+        "draggable": "true"
+      },
+      {
+        "name": "地球市民",
+        "value": 10,
+        "symbolSize": 9,
+        "category": "コンピテンシー",
+        "draggable": "true"
+      },
+      {
+        "name": "組織へのコミットメント",
+        "value": 10,
+        "symbolSize": 9,
+        "category": "コンピテンシー",
+        "draggable": "true"
+      },
+      {
+        "name": "誠実さ",
+        "value": 10,
+        "symbolSize": 9,
+        "category": "コンピテンシー",
+        "draggable": "true"
+      },
+      {
+        "name": "User1",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "課題設定",
+        "draggable": "true"
+      },
+      {
+        "name": "User2",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "課題設定",
+        "draggable": "true"
+      },
+      {
+        "name": "User3",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "課題設定",
+        "draggable": "true"
+      },
+      {
+        "name": "User4",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "課題設定",
+        "draggable": "true"
+      },
+
+      {
+        "name": "User5",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "解決意向",
+        "draggable": "true"
+      },
+      {
+        "name": "User6",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "解決意向",
+        "draggable": "true"
+      },
+      {
+        "name": "User7",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "解決意向",
+        "draggable": "true"
+      },
+
+      {
+        "name": "User8",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "個人的実行力",
+        "draggable": "true"
+      },
+      {
+        "name": "User9",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "個人的実行力",
+        "draggable": "true"
+      },
+      {
+        "name": "User10",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "個人的実行力",
+        "draggable": "true"
+      },
+
+      {
+        "name": "User11",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "創造性",
+        "draggable": "true"
+      },
+      {
+        "name": "User12",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "創造性",
+        "draggable": "true"
+      },
+      {
+        "name": "User13",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "創造性",
+        "draggable": "true"
+      },
+
+      {
+        "name": "User14",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "論理的思考",
+        "draggable": "true"
+      },
+      {
+        "name": "User15",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "論理的思考",
+        "draggable": "true"
+      },
+      {
+        "name": "User16",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "論理的思考",
+        "draggable": "true"
+      },
+
+      {
+        "name": "User17",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "疑う力",
+        "draggable": "true"
+      },
+      {
+        "name": "User18",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "疑う力",
+        "draggable": "true"
+      },
+      {
+        "name": "User19",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "疑う力",
+        "draggable": "true"
+      },
+
+      {
+        "name": "User20",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "内的価値",
+        "draggable": "true"
+      },
+      {
+        "name": "User21",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "内的価値",
+        "draggable": "true"
+      },
+      {
+        "name": "User22",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "内的価値",
+        "draggable": "true"
+      },
+
+      {
+        "name": "User23",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "自己効力",
+        "draggable": "true"
+      },
+      {
+        "name": "User24",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "成長",
+        "draggable": "true"
+      },
+      {
+        "name": "User25",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "興味",
+        "draggable": "true"
+      },
+      {
+        "name": "User26",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "耐性",
+        "draggable": "true"
+      },
+      {
+        "name": "User27",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "感情コントロール",
+        "draggable": "true"
+      },
+      {
+        "name": "User28",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "表現力",
+        "draggable": "true"
+      },
+      {
+        "name": "User29",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "共感・傾聴力",
+        "draggable": "true"
+      },
+      {
+        "name": "User30",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "外交性",
+        "draggable": "true"
+      },
+      {
+        "name": "User31",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "柔軟性",
+        "draggable": "true"
+      },
+      {
+        "name": "User32",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "決断力",
+        "draggable": "true"
+      },
+      {
+        "name": "User33",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "寛容",
+        "draggable": "true"
+      },
+      {
+        "name": "User34",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "影響力の行使",
+        "draggable": "true"
+      },
+      {
+        "name": "User35",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "情熱・宣教力",
+        "draggable": "true"
+      },
+      {
+        "name": "User36",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "組織への働きかけ",
+        "draggable": "true"
+      },
+      {
+        "name": "User37",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "地球市民",
+        "draggable": "true"
+      },
+      {
+        "name": "User38",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "組織へのコミットメント",
+        "draggable": "true"
+      },
+      {
+        "name": "User39",
+        "value": 4,
+        "symbolSize": 5,
+        "category": "誠実さ",
+        "draggable": "true"
+      }
+    ],
+    "links": [{
+        "source": "コンピテンシー",
+        "target": "課題設定"
+      },
+      {
+        "source": "コンピテンシー",
+        "target": "解決意向"
+      },
+      {
+        "source": "コンピテンシー",
+        "target": "個人的実行力"
+      },
+      {
+        "source": "コンピテンシー",
+        "target": "創造性"
+      },
+      {
+        "source": "コンピテンシー",
+        "target": "論理的思考"
+      },
+      {
+        "source": "コンピテンシー",
+        "target": "疑う力"
+      },
+      {
+        "source": "コンピテンシー",
+        "target": "内的価値"
+      },
+      {
+        "source": "コンピテンシー",
+        "target": "ヴィジョン"
+      },
+      {
+        "source": "コンピテンシー",
+        "target": "自己効力"
+      },
+      {
+        "source": "コンピテンシー",
+        "target": "成長"
+      },
+      {
+        "source": "コンピテンシー",
+        "target": "興味"
+      },
+      {
+        "source": "コンピテンシー",
+        "target": "耐性"
+      },
+      {
+        "source": "コンピテンシー",
+        "target": "感情コントロール"
+      },
+      {
+        "source": "コンピテンシー",
+        "target": "表現力"
+      },
+      {
+        "source": "コンピテンシー",
+        "target": "共感・傾聴力"
+      },
+      {
+        "source": "コンピテンシー",
+        "target": "外交性"
+      },
+      {
+        "source": "コンピテンシー",
+        "target": "柔軟性"
+      },
+      {
+        "source": "コンピテンシー",
+        "target": "決断力"
+      },
+      {
+        "source": "コンピテンシー",
+        "target": "寛容"
+      },
+      {
+        "source": "コンピテンシー",
+        "target": "影響力の行使"
+      },
+      {
+        "source": "コンピテンシー",
+        "target": "情熱・宣教力"
+      },
+      {
+        "source": "コンピテンシー",
+        "target": "組織への働きかけ"
+      },
+      {
+        "source": "コンピテンシー",
+        "target": "地球市民"
+      },
+      {
+        "source": "コンピテンシー",
+        "target": "組織へのコミットメント"
+      },
+      {
+        "source": "コンピテンシー",
+        "target": "誠実さ"
+      },
+      {
+        "source": "課題設定",
+        "target": "User1"
+      },
+      {
+        "source": "課題設定",
+        "target": "User2"
+      },
+      {
+        "source": "課題設定",
+        "target": "User3"
+      },
+      {
+        "source": "課題設定",
+        "target": "User4"
+      },
+
+      {
+        "source": "解決意向",
+        "target": "User5"
+      },
+      {
+        "source": "解決意向",
+        "target": "User6"
+      },
+      {
+        "source": "解決意向",
+        "target": "User7"
+      },
+
+      {
+        "source": "個人的実行力",
+        "target": "User8"
+      },
+      {
+        "source": "個人的実行力",
+        "target": "User9"
+      },
+      {
+        "source": "個人的実行力",
+        "target": "User10"
+      },
+
+      {
+        "source": "創造性",
+        "target": "User11"
+      },
+      {
+        "source": "創造性",
+        "target": "User12"
+      },
+      {
+        "source": "創造性",
+        "target": "User13"
+      },
+
+      {
+        "source": "論理的思考",
+        "target": "User14"
+      },
+      {
+        "source": "論理的思考",
+        "target": "User15"
+      },
+      {
+        "source": "論理的思考",
+        "target": "User16"
+      },
+
+      {
+        "source": "疑う力",
+        "target": "User17"
+      },
+      {
+        "source": "疑う力",
+        "target": "User18"
+      },
+      {
+        "source": "疑う力",
+        "target": "User19"
+      },
+
+      {
+        "source": "内的価値",
+        "target": "User20"
+      },
+      {
+        "source": "内的価値",
+        "target": "User21"
+      },
+      {
+        "source": "内的価値",
+        "target": "User22"
+      },
+      {
+        "source": "自己効力",
+        "target": "User23"
+      },
+      {
+        "source": "成長",
+        "target": "User24"
+      },
+      {
+        "source": "興味",
+        "target": "User25"
+      },
+      {
+        "source": "耐性",
+        "target": "User26"
+      },
+      {
+        "source": "感情コントロール",
+        "target": "User27"
+      },
+      {
+        "source": "表現力",
+        "target": "User28"
+      },
+      {
+        "source": "共感・傾聴力",
+        "target": "User29"
+      },
+      {
+        "source": "外交性",
+        "target": "User30"
+      },
+      {
+        "source": "柔軟性",
+        "target": "User31"
+      },
+      {
+        "source": "決断力",
+        "target": "User32"
+      },
+      {
+        "source": "寛容",
+        "target": "User33"
+      },
+      {
+        "source": "影響力の行使",
+        "target": "User34"
+      },
+      {
+        "source": "情熱・宣教力",
+        "target": "User35"
+      },
+      {
+        "source": "組織への働きかけ",
+        "target": "User36"
+      },
+      {
+        "source": "地球市民",
+        "target": "User37"
+      },
+      {
+        "source": "組織へのコミットメント",
+        "target": "User38"
+      },
+      {
+        "source": "誠実さ",
+        "target": "User39"
+      },
+      {
+        "source": "ヴィジョン",
+        "target": "User40"
+      }
+    ],
+    "categories": [{
+        "name": "コンピテンシー"
+      },
+      {
+        "name": "課題設定"
+      },
+      {
+        "name": "解決意向"
+      },
+      {
+        "name": "個人的実行力"
+      },
+      {
+        "name": "創造性"
+      },
+      {
+        "name": "論理的思考"
+      },
+      {
+        "name": "疑う力"
+      },
+      {
+        "name": "内的価値"
+      },
+      {
+        "name": "ヴィジョン"
+      },
+      {
+        "name": "自己効力"
+      },
+      {
+        "name": "成長"
+      },
+      {
+        "name": "興味"
+      },
+      {
+        "name": "耐性"
+      },
+      {
+        "name": "感情コントロール"
+      },
+      {
+        "name": "表現力"
+      },
+      {
+        "name": "共感・傾聴力"
+      },
+      {
+        "name": "外交性"
+      },
+      {
+        "name": "柔軟性"
+      },
+      {
+        "name": "決断力"
+      },
+      {
+        "name": "寛容"
+      },
+      {
+        "name": "影響力の行使"
+      },
+      {
+        "name": "情熱・宣教力"
+      },
+      {
+        "name": "組織への働きかけ"
+      },
+      {
+        "name": "地球市民"
+      },
+      {
+        "name": "組織へのコミットメント"
+      },
+      {
+        "name": "誠実さ"
+      }
+    ]
+  }
+}
