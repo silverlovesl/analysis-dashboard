@@ -9,6 +9,8 @@ import * as $ from 'jQuery';
 
 declare var echarts: any;
 
+type MyColor = { start: string, end: string }
+
 @Component({
   selector: 'app-demo',
   templateUrl: './demo.component.html',
@@ -28,8 +30,9 @@ export class DemoComponent implements OnInit {
   public mapChart_WORLD: any;
   public correlationChartAxisLabel: string[] = ['課題設定', '解決意向', '個人的実行力', '創造性', '論理的思考', '疑う力', '内的価値', 'ヴィジョン', '自己効力', '成長', '興味', '耐性', '感情コントロール', '表現力', '共感・傾聴力', '外交性', '柔軟性', '決断力', '寛容', '影響力の行使', '情熱・宣教力', '組織への働きかけ', '地球市民', '組織へのコミットメント', '誠実さ'];
   public plotChartAxisLabel: string[] = ['課題設定', '解決意向', '個人的実行力', '創造性', '論理的思考', '疑う力', '内的価値', 'ヴィジョン', '自己効力', '成長', '興味', '耐性', '感情コントロール', '表現力', '共感・傾聴力', '外交性', '柔軟性', '決断力', '寛容', '影響力の行使', '情熱・宣教力', '組織への働きかけ', '地球市民', '組織へのコミットメント', '誠実さ', '外向性-内向性', '開放性-保守性', '繊細性-平穏性', '協調性-独立性', '誠実性-快楽性'];
+  public plotColorOption: MyColor = { start: "", end: "" };
+  public correlationColorOption: MyColor = { start: "", end: "" };
   @ViewChild("myRadarChart") myRadarChart: UIChart;
-
   constructor(public zone: NgZone, public demoService: DemoService) {
     this.filterData = [];
     //Gridデータ取得
@@ -170,7 +173,10 @@ export class DemoComponent implements OnInit {
         orient: 'horizontal',
         left: 'center',
         bottom: '5%',
-        precision: 5
+        precision: 5,
+        inRange: {
+          color: ['RGB(63, 167, 220)', 'RGBA(41, 60, 85, 1.00)']
+        }
       },
       series: [{
         name: 'Punch Card',
@@ -495,5 +501,29 @@ export class DemoComponent implements OnInit {
         }
       ]
     };
+  }
+
+  private correlationColorChange(event, isFrom: boolean = false) {
+    if (this.correlationChart.visualMap.inRange.color.length >= 2) {
+      this.correlationChart.visualMap.inRange.color[isFrom ? 0 : 1] = isFrom ? this.correlationColorOption.start : this.correlationColorOption.end;
+      let chart = echarts.init(document.getElementById("correlationChartObj"));
+      chart.setOption(this.correlationChart, true);
+    }
+  }
+
+  private plotColorChange(event) {
+
+    let data_inline = this.plotChart.series[0];
+    data_inline.itemStyle = data_inline.itemStyle || {};
+    data_inline.itemStyle.normal = data_inline.itemStyle.normal || {};
+    data_inline.itemStyle.normal.borderColor = this.plotColorOption.start;
+
+    let data_outline = this.plotChart.series[1];
+    data_outline.itemStyle = data_outline.itemStyle || {};
+    data_outline.itemStyle.normal = data_outline.itemStyle.normal || {};
+    data_outline.itemStyle.normal.color = this.plotColorOption.start;
+
+    let chart = echarts.init(document.getElementById("plotChartObj"));
+    chart.setOption(this.plotChart, true);
   }
 }

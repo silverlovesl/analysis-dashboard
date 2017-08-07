@@ -13,7 +13,8 @@ import {
   MultiSelectModule,
   DataTableModule,
   SharedModule,
-  ChartModule
+  ChartModule,
+  ColorPickerModule
 } from 'primeng/primeng';
 // Shared Component----------------------------------------------------------------------------------
 import { AppComponent } from './app.component';
@@ -44,6 +45,7 @@ import { DemoComponent } from './pages/demo/demo.component';
     DataTableModule,
     SharedModule,
     ChartModule,
+    ColorPickerModule,
     AngularEchartsModule,
     HttpModule
   ],

@@ -23,3 +23,4 @@ export class DemoModel implements Serializable<DemoModel> {
     return this;
   }
 }
+

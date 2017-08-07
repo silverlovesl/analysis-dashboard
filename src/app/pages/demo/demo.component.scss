@@ -1,4 +1,9 @@
 .demo {
+  section {
+    position: relative;
+  }
+  &__color_picker {}
+
   &__chart {
     width: 100%;
     height: 600px;

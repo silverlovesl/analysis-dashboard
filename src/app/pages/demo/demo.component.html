@@ -81,12 +81,17 @@
   </section>
   <section class="ui-g-12 ui-lg-6 ui-md-6 ui-sm-12">
     <div class="card shadow-box ui-shadow-1">
-      <div echarts [options]="plotChart" class="demo__chart"></div>
+      <p-colorPicker [(ngModel)]="plotColorOption.start" format="hex" (onChange)="plotColorChange($event)" class="demo__color_picker"></p-colorPicker>
+      <div id="plotChartObj" echarts [options]="plotChart" class="demo__chart"></div>
     </div>
   </section>
   <section class="ui-g-12 ui-lg-6 ui-md-6 ui-sm-12">
     <div class="card shadow-box ui-shadow-1">
-      <div echarts [options]="correlationChart" class="demo__chart"></div>
+      Start:
+      <p-colorPicker [(ngModel)]="correlationColorOption.start" format="hex" (onChange)="correlationColorChange($event,true)" class="demo__color_picker"></p-colorPicker>
+      End:
+      <p-colorPicker [(ngModel)]="correlationColorOption.end" format="hex" (onChange)="correlationColorChange($event,false)" class="demo__color_picker"></p-colorPicker>
+      <div id="correlationChartObj" echarts [options]="correlationChart" class="demo__chart"></div>
     </div>
   </section>
   <section class="ui-g-12 ui-lg-6 ui-md-6 ui-sm-12">
