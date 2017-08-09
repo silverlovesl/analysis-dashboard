@@ -22,8 +22,8 @@
       "../node_modules/primeng/resources/primeng.min.css",
       "../node_modules/nanoscroller/bin/css/nanoscroller.css",
       "../node_modules/pace-js/themes/red/pace-theme-material.css",
-      "./assets/layout/css/layout-blue.css",
-      "./assets/theme/theme-blue.css",
+      "./assets/layout/css/layout-grey.css",
+      "./assets/theme/theme-grey.css",
       "styles.scss"
     ],
     "scripts": [
