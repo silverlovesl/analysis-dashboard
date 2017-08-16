@@ -1,811 +1,1816 @@
 {
   "data": {
     "data": [{
-        "name": "コンピテンシー",
-        "symbolSize": 20,
-        "draggable": "true",
-        "value": 27
-      },
-      {
-        "name": "課題設定",
+        "name": "13660",
         "value": 10,
-        "symbolSize": 9,
-        "category": "コンピテンシー",
+        "symbolSize": 10,
+        "category": "others",
         "draggable": "true"
       },
       {
-        "name": "解決意向",
+        "name": "23661",
         "value": 10,
-        "symbolSize": 9,
-        "category": "コンピテンシー",
+        "symbolSize": 10,
+        "category": "others",
         "draggable": "true"
       },
       {
-        "name": "個人的実行力",
+        "name": "29223",
         "value": 10,
-        "symbolSize": 9,
-        "category": "コンピテンシー",
+        "symbolSize": 30,
+        "category": "freshman",
         "draggable": "true"
       },
       {
-        "name": "創造性",
+        "name": "29224",
         "value": 10,
-        "symbolSize": 9,
-        "category": "コンピテンシー",
+        "symbolSize": 30,
+        "category": "freshman",
         "draggable": "true"
       },
       {
-        "name": "論理的思考",
+        "name": "29225",
         "value": 10,
-        "symbolSize": 9,
-        "category": "コンピテンシー",
+        "symbolSize": 30,
+        "category": "freshman",
         "draggable": "true"
       },
       {
-        "name": "疑う力",
+        "name": "29226",
         "value": 10,
-        "symbolSize": 9,
-        "category": "コンピテンシー",
+        "symbolSize": 30,
+        "category": "freshman",
         "draggable": "true"
       },
       {
-        "name": "内的価値",
+        "name": "29227",
         "value": 10,
-        "symbolSize": 9,
-        "category": "コンピテンシー",
+        "symbolSize": 30,
+        "category": "freshman",
         "draggable": "true"
       },
       {
-        "name": "ヴィジョン",
+        "name": "29228",
         "value": 10,
-        "symbolSize": 9,
-        "category": "コンピテンシー",
+        "symbolSize": 30,
+        "category": "freshman",
         "draggable": "true"
       },
       {
-        "name": "自己効力",
+        "name": "29229",
         "value": 10,
-        "symbolSize": 9,
-        "category": "コンピテンシー",
+        "symbolSize": 30,
+        "category": "freshman",
         "draggable": "true"
       },
       {
-        "name": "成長",
+        "name": "29230",
         "value": 10,
-        "symbolSize": 9,
-        "category": "コンピテンシー",
+        "symbolSize": 30,
+        "category": "freshman",
         "draggable": "true"
       },
       {
-        "name": "興味",
+        "name": "29231",
         "value": 10,
-        "symbolSize": 9,
-        "category": "コンピテンシー",
+        "symbolSize": 30,
+        "category": "freshman",
         "draggable": "true"
       },
       {
-        "name": "耐性",
+        "name": "29232",
         "value": 10,
-        "symbolSize": 9,
-        "category": "コンピテンシー",
+        "symbolSize": 30,
+        "category": "freshman",
         "draggable": "true"
       },
       {
-        "name": "感情コントロール",
+        "name": "29233",
         "value": 10,
-        "symbolSize": 9,
-        "category": "コンピテンシー",
+        "symbolSize": 30,
+        "category": "freshman",
         "draggable": "true"
       },
       {
-        "name": "表現力",
+        "name": "29234",
         "value": 10,
-        "symbolSize": 9,
-        "category": "コンピテンシー",
+        "symbolSize": 30,
+        "category": "freshman",
         "draggable": "true"
       },
       {
-        "name": "共感・傾聴力",
+        "name": "29235",
         "value": 10,
-        "symbolSize": 9,
-        "category": "コンピテンシー",
+        "symbolSize": 30,
+        "category": "freshman",
         "draggable": "true"
       },
       {
-        "name": "外交性",
+        "name": "29236",
         "value": 10,
-        "symbolSize": 9,
-        "category": "コンピテンシー",
+        "symbolSize": 30,
+        "category": "freshman",
         "draggable": "true"
       },
       {
-        "name": "柔軟性",
+        "name": "29237",
         "value": 10,
-        "symbolSize": 9,
-        "category": "コンピテンシー",
+        "symbolSize": 30,
+        "category": "freshman",
         "draggable": "true"
       },
       {
-        "name": "決断力",
+        "name": "29238",
         "value": 10,
-        "symbolSize": 9,
-        "category": "コンピテンシー",
+        "symbolSize": 30,
+        "category": "freshman",
         "draggable": "true"
       },
       {
-        "name": "寛容",
+        "name": "29239",
         "value": 10,
-        "symbolSize": 9,
-        "category": "コンピテンシー",
+        "symbolSize": 30,
+        "category": "freshman",
         "draggable": "true"
       },
       {
-        "name": "影響力の行使",
+        "name": "29240",
         "value": 10,
-        "symbolSize": 9,
-        "category": "コンピテンシー",
+        "symbolSize": 30,
+        "category": "freshman",
         "draggable": "true"
       },
       {
-        "name": "情熱・宣教力",
+        "name": "29241",
         "value": 10,
-        "symbolSize": 9,
-        "category": "コンピテンシー",
+        "symbolSize": 30,
+        "category": "freshman",
         "draggable": "true"
       },
       {
-        "name": "組織への働きかけ",
+        "name": "29242",
         "value": 10,
-        "symbolSize": 9,
-        "category": "コンピテンシー",
+        "symbolSize": 30,
+        "category": "freshman",
         "draggable": "true"
       },
       {
-        "name": "地球市民",
+        "name": "29243",
         "value": 10,
-        "symbolSize": 9,
-        "category": "コンピテンシー",
+        "symbolSize": 30,
+        "category": "hrmentor",
         "draggable": "true"
       },
       {
-        "name": "組織へのコミットメント",
+        "name": "29244",
         "value": 10,
-        "symbolSize": 9,
-        "category": "コンピテンシー",
+        "symbolSize": 30,
+        "category": "hrmentor",
         "draggable": "true"
       },
       {
-        "name": "誠実さ",
+        "name": "29245",
         "value": 10,
-        "symbolSize": 9,
-        "category": "コンピテンシー",
+        "symbolSize": 30,
+        "category": "hrmentor",
         "draggable": "true"
       },
       {
-        "name": "User1",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "課題設定",
+        "name": "29246",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
         "draggable": "true"
       },
       {
-        "name": "User2",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "課題設定",
+        "name": "29247",
+        "value": 10,
+        "symbolSize": 30,
+        "category": "hrmentor",
         "draggable": "true"
       },
       {
-        "name": "User3",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "課題設定",
+        "name": "29248",
+        "value": 10,
+        "symbolSize": 30,
+        "category": "hrmentor",
         "draggable": "true"
       },
       {
-        "name": "User4",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "課題設定",
-        "draggable": "true"
-      },
-
-      {
-        "name": "User5",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "解決意向",
+        "name": "29249",
+        "value": 10,
+        "symbolSize": 30,
+        "category": "commitmentor",
         "draggable": "true"
       },
       {
-        "name": "User6",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "解決意向",
+        "name": "29250",
+        "value": 10,
+        "symbolSize": 30,
+        "category": "commitmentor",
         "draggable": "true"
       },
       {
-        "name": "User7",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "解決意向",
-        "draggable": "true"
-      },
-
-      {
-        "name": "User8",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "個人的実行力",
+        "name": "29251",
+        "value": 10,
+        "symbolSize": 30,
+        "category": "commitmentor",
         "draggable": "true"
       },
       {
-        "name": "User9",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "個人的実行力",
+        "name": "29252",
+        "value": 10,
+        "symbolSize": 30,
+        "category": "commitmentor",
         "draggable": "true"
       },
       {
-        "name": "User10",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "個人的実行力",
-        "draggable": "true"
-      },
-
-      {
-        "name": "User11",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "創造性",
+        "name": "29253",
+        "value": 10,
+        "symbolSize": 30,
+        "category": "commitmentor",
         "draggable": "true"
       },
       {
-        "name": "User12",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "創造性",
+        "name": "29254",
+        "value": 10,
+        "symbolSize": 30,
+        "category": "commitmentor",
         "draggable": "true"
       },
       {
-        "name": "User13",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "創造性",
-        "draggable": "true"
-      },
-
-      {
-        "name": "User14",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "論理的思考",
+        "name": "29255",
+        "value": 10,
+        "symbolSize": 30,
+        "category": "commitmentor",
         "draggable": "true"
       },
       {
-        "name": "User15",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "論理的思考",
+        "name": "29256",
+        "value": 10,
+        "symbolSize": 30,
+        "category": "commitmentor",
         "draggable": "true"
       },
       {
-        "name": "User16",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "論理的思考",
-        "draggable": "true"
-      },
-
-      {
-        "name": "User17",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "疑う力",
+        "name": "29257",
+        "value": 10,
+        "symbolSize": 30,
+        "category": "commitmentor",
         "draggable": "true"
       },
       {
-        "name": "User18",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "疑う力",
+        "name": "29258",
+        "value": 10,
+        "symbolSize": 30,
+        "category": "commitmentor",
         "draggable": "true"
       },
       {
-        "name": "User19",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "疑う力",
-        "draggable": "true"
-      },
-
-      {
-        "name": "User20",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "内的価値",
+        "name": "29259",
+        "value": 10,
+        "symbolSize": 30,
+        "category": "commitmentor",
         "draggable": "true"
       },
       {
-        "name": "User21",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "内的価値",
+        "name": "29260",
+        "value": 10,
+        "symbolSize": 30,
+        "category": "commitmentor",
         "draggable": "true"
       },
       {
-        "name": "User22",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "内的価値",
-        "draggable": "true"
-      },
-
-      {
-        "name": "User23",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "自己効力",
+        "name": "29261",
+        "value": 10,
+        "symbolSize": 30,
+        "category": "commitmentor",
         "draggable": "true"
       },
       {
-        "name": "User24",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "成長",
+        "name": "29262",
+        "value": 10,
+        "symbolSize": 30,
+        "category": "commitmentor",
         "draggable": "true"
       },
       {
-        "name": "User25",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "興味",
+        "name": "31909",
+        "value": 10,
+        "symbolSize": 30,
+        "category": "commitmentor",
         "draggable": "true"
       },
       {
-        "name": "User26",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "耐性",
+        "name": "31910",
+        "value": 10,
+        "symbolSize": 30,
+        "category": "commitmentor",
         "draggable": "true"
       },
       {
-        "name": "User27",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "感情コントロール",
+        "name": "31911",
+        "value": 10,
+        "symbolSize": 30,
+        "category": "commitmentor",
         "draggable": "true"
       },
       {
-        "name": "User28",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "表現力",
+        "name": "32187",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
         "draggable": "true"
       },
       {
-        "name": "User29",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "共感・傾聴力",
+        "name": "32374",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
         "draggable": "true"
       },
       {
-        "name": "User30",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "外交性",
+        "name": "32474",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
         "draggable": "true"
       },
       {
-        "name": "User31",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "柔軟性",
+        "name": "32529",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
         "draggable": "true"
       },
       {
-        "name": "User32",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "決断力",
+        "name": "32534",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
         "draggable": "true"
       },
       {
-        "name": "User33",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "寛容",
+        "name": "32593",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
         "draggable": "true"
       },
       {
-        "name": "User34",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "影響力の行使",
+        "name": "32596",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
         "draggable": "true"
       },
       {
-        "name": "User35",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "情熱・宣教力",
+        "name": "32622",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
         "draggable": "true"
       },
       {
-        "name": "User36",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "組織への働きかけ",
+        "name": "32639",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
         "draggable": "true"
       },
       {
-        "name": "User37",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "地球市民",
+        "name": "32640",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
         "draggable": "true"
       },
       {
-        "name": "User38",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "組織へのコミットメント",
+        "name": "32641",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
         "draggable": "true"
       },
       {
-        "name": "User39",
-        "value": 4,
-        "symbolSize": 5,
-        "category": "誠実さ",
+        "name": "32642",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "32711",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "32752",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "32766",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "32782",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "32787",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "32806",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "32826",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "32949",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "33013",
+        "value": 10,
+        "symbolSize": 30,
+        "category": "commitmentor",
+        "draggable": "true"
+      },
+      {
+        "name": "33261",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "33470",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "33787",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "34164",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "34179",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "34191",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "34260",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "34287",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "34331",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "34462",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "34487",
+        "value": 10,
+        "symbolSize": 30,
+        "category": "commitmentor",
+        "draggable": "true"
+      },
+      {
+        "name": "34490",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "34548",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "34630",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "34637",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "34835",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "34852",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "34978",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "35001",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "35020",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "35036",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "35089",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "35130",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "35140",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "35155",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "35178",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "35190",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "35202",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "35203",
+        "value": 10,
+        "symbolSize": 30,
+        "category": "commitmentor",
+        "draggable": "true"
+      },
+      {
+        "name": "35207",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "35218",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "35220",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "35221",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "35223",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "35227",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "35242",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "35243",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "35249",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "35285",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "35298",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "35303",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "35307",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "35344",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "35391",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "35401",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "35441",
+        "value": 10,
+        "symbolSize": 30,
+        "category": "commitmentor",
+        "draggable": "true"
+      },
+      {
+        "name": "35461",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "35469",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "35500",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "35506",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "35511",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "35518",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "35534",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "35551",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "35926",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "36560",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "36665",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "36779",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "36838",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
+        "draggable": "true"
+      },
+      {
+        "name": "37065",
+        "value": 10,
+        "symbolSize": 10,
+        "category": "others",
         "draggable": "true"
       }
     ],
     "links": [{
-        "source": "コンピテンシー",
-        "target": "課題設定"
+        "source": "29225",
+        "target": "29223"
       },
       {
-        "source": "コンピテンシー",
-        "target": "解決意向"
+        "source": "29237",
+        "target": "29223"
       },
       {
-        "source": "コンピテンシー",
-        "target": "個人的実行力"
+        "source": "34191",
+        "target": "29223"
       },
       {
-        "source": "コンピテンシー",
-        "target": "創造性"
+        "source": "34331",
+        "target": "29223"
       },
       {
-        "source": "コンピテンシー",
-        "target": "論理的思考"
+        "source": "34630",
+        "target": "29223"
       },
       {
-        "source": "コンピテンシー",
-        "target": "疑う力"
+        "source": "35506",
+        "target": "29223"
       },
       {
-        "source": "コンピテンシー",
-        "target": "内的価値"
+        "source": "29232",
+        "target": "29230"
       },
       {
-        "source": "コンピテンシー",
-        "target": "ヴィジョン"
+        "source": "29240",
+        "target": "29230"
       },
       {
-        "source": "コンピテンシー",
-        "target": "自己効力"
+        "source": "33013",
+        "target": "29230"
       },
       {
-        "source": "コンピテンシー",
-        "target": "成長"
+        "source": "33261",
+        "target": "29230"
       },
       {
-        "source": "コンピテンシー",
-        "target": "興味"
+        "source": "34287",
+        "target": "29230"
       },
       {
-        "source": "コンピテンシー",
-        "target": "耐性"
+        "source": "29251",
+        "target": "29243"
       },
       {
-        "source": "コンピテンシー",
-        "target": "感情コントロール"
+        "source": "34462",
+        "target": "29243"
       },
       {
-        "source": "コンピテンシー",
-        "target": "表現力"
+        "source": "34490",
+        "target": "29243"
       },
       {
-        "source": "コンピテンシー",
-        "target": "共感・傾聴力"
+        "source": "34637",
+        "target": "29243"
       },
       {
-        "source": "コンピテンシー",
-        "target": "外交性"
+        "source": "36779",
+        "target": "29243"
       },
       {
-        "source": "コンピテンシー",
-        "target": "柔軟性"
+        "source": "29244",
+        "target": "29256"
       },
       {
-        "source": "コンピテンシー",
-        "target": "決断力"
+        "source": "32782",
+        "target": "29256"
       },
       {
-        "source": "コンピテンシー",
-        "target": "寛容"
+        "source": "34462",
+        "target": "29256"
       },
       {
-        "source": "コンピテンシー",
-        "target": "影響力の行使"
+        "source": "35155",
+        "target": "29256"
       },
       {
-        "source": "コンピテンシー",
-        "target": "情熱・宣教力"
+        "source": "35518",
+        "target": "29256"
       },
       {
-        "source": "コンピテンシー",
-        "target": "組織への働きかけ"
+        "source": "32593",
+        "target": "29259"
       },
       {
-        "source": "コンピテンシー",
-        "target": "地球市民"
+        "source": "32806",
+        "target": "29259"
       },
       {
-        "source": "コンピテンシー",
-        "target": "組織へのコミットメント"
+        "source": "34164",
+        "target": "29259"
       },
       {
-        "source": "コンピテンシー",
-        "target": "誠実さ"
+        "source": "34287",
+        "target": "29259"
       },
       {
-        "source": "課題設定",
-        "target": "User1"
+        "source": "35036",
+        "target": "29259"
       },
       {
-        "source": "課題設定",
-        "target": "User2"
+        "source": "29237",
+        "target": "29245"
       },
       {
-        "source": "課題設定",
-        "target": "User3"
+        "source": "29261",
+        "target": "29245"
       },
       {
-        "source": "課題設定",
-        "target": "User4"
+        "source": "29262",
+        "target": "29245"
       },
-
       {
-        "source": "解決意向",
-        "target": "User5"
+        "source": "33787",
+        "target": "29245"
       },
       {
-        "source": "解決意向",
-        "target": "User6"
+        "source": "29229",
+        "target": "29235"
       },
       {
-        "source": "解決意向",
-        "target": "User7"
+        "source": "29230",
+        "target": "29235"
       },
-
       {
-        "source": "個人的実行力",
-        "target": "User8"
+        "source": "29237",
+        "target": "29235"
       },
       {
-        "source": "個人的実行力",
-        "target": "User9"
+        "source": "32187",
+        "target": "29235"
       },
       {
-        "source": "個人的実行力",
-        "target": "User10"
+        "source": "35391",
+        "target": "29235"
       },
-
       {
-        "source": "創造性",
-        "target": "User11"
+        "source": "29228",
+        "target": "29252"
       },
       {
-        "source": "創造性",
-        "target": "User12"
+        "source": "29233",
+        "target": "29252"
       },
       {
-        "source": "創造性",
-        "target": "User13"
+        "source": "29237",
+        "target": "29252"
       },
-
       {
-        "source": "論理的思考",
-        "target": "User14"
+        "source": "29257",
+        "target": "29252"
       },
       {
-        "source": "論理的思考",
-        "target": "User15"
+        "source": "34630",
+        "target": "29252"
       },
       {
-        "source": "論理的思考",
-        "target": "User16"
+        "source": "29234",
+        "target": "29238"
       },
-
       {
-        "source": "疑う力",
-        "target": "User17"
+        "source": "29235",
+        "target": "29238"
       },
       {
-        "source": "疑う力",
-        "target": "User18"
+        "source": "29237",
+        "target": "29238"
       },
       {
-        "source": "疑う力",
-        "target": "User19"
+        "source": "29261",
+        "target": "29238"
       },
-
       {
-        "source": "内的価値",
-        "target": "User20"
+        "source": "32374",
+        "target": "29238"
       },
       {
-        "source": "内的価値",
-        "target": "User21"
+        "source": "35926",
+        "target": "29238"
       },
       {
-        "source": "内的価値",
-        "target": "User22"
+        "source": "32622",
+        "target": "31910"
       },
       {
-        "source": "自己効力",
-        "target": "User23"
+        "source": "32639",
+        "target": "31910"
       },
       {
-        "source": "成長",
-        "target": "User24"
+        "source": "32640",
+        "target": "31910"
       },
       {
-        "source": "興味",
-        "target": "User25"
+        "source": "32641",
+        "target": "31910"
       },
       {
-        "source": "耐性",
-        "target": "User26"
+        "source": "32642",
+        "target": "31910"
       },
       {
-        "source": "感情コントロール",
-        "target": "User27"
+        "source": "29234",
+        "target": "29240"
       },
       {
-        "source": "表現力",
-        "target": "User28"
+        "source": "32187",
+        "target": "29240"
       },
       {
-        "source": "共感・傾聴力",
-        "target": "User29"
+        "source": "32593",
+        "target": "29240"
       },
       {
-        "source": "外交性",
-        "target": "User30"
+        "source": "32782",
+        "target": "29240"
       },
       {
-        "source": "柔軟性",
-        "target": "User31"
+        "source": "32806",
+        "target": "29240"
       },
       {
-        "source": "決断力",
-        "target": "User32"
+        "source": "29227",
+        "target": "29237"
       },
       {
-        "source": "寛容",
-        "target": "User33"
+        "source": "33787",
+        "target": "29237"
       },
       {
-        "source": "影響力の行使",
-        "target": "User34"
+        "source": "34630",
+        "target": "29237"
       },
       {
-        "source": "情熱・宣教力",
-        "target": "User35"
+        "source": "34852",
+        "target": "29237"
       },
       {
-        "source": "組織への働きかけ",
-        "target": "User36"
+        "source": "35469",
+        "target": "29237"
       },
       {
-        "source": "地球市民",
-        "target": "User37"
+        "source": "32529",
+        "target": "29255"
       },
       {
-        "source": "組織へのコミットメント",
-        "target": "User38"
+        "source": "32534",
+        "target": "29255"
       },
       {
-        "source": "誠実さ",
-        "target": "User39"
+        "source": "34287",
+        "target": "29255"
       },
       {
-        "source": "ヴィジョン",
-        "target": "User40"
+        "source": "34487",
+        "target": "29255"
+      },
+      {
+        "source": "34637",
+        "target": "29255"
+      },
+      {
+        "source": "29257",
+        "target": "29248"
+      },
+      {
+        "source": "32474",
+        "target": "29248"
+      },
+      {
+        "source": "32596",
+        "target": "29248"
+      },
+      {
+        "source": "32826",
+        "target": "29248"
+      },
+      {
+        "source": "35243",
+        "target": "29248"
+      },
+      {
+        "source": "29224",
+        "target": "29262"
+      },
+      {
+        "source": "29235",
+        "target": "29262"
+      },
+      {
+        "source": "29245",
+        "target": "29262"
+      },
+      {
+        "source": "32711",
+        "target": "29262"
+      },
+      {
+        "source": "32787",
+        "target": "29262"
+      },
+      {
+        "source": "29248",
+        "target": "29257"
+      },
+      {
+        "source": "29252",
+        "target": "29257"
+      },
+      {
+        "source": "32752",
+        "target": "29257"
+      },
+      {
+        "source": "35243",
+        "target": "29257"
+      },
+      {
+        "source": "35511",
+        "target": "29257"
+      },
+      {
+        "source": "29232",
+        "target": "29236"
+      },
+      {
+        "source": "29237",
+        "target": "29236"
+      },
+      {
+        "source": "29257",
+        "target": "29236"
+      },
+      {
+        "source": "29260",
+        "target": "29236"
+      },
+      {
+        "source": "33261",
+        "target": "29236"
+      },
+      {
+        "source": "32187",
+        "target": "29233"
+      },
+      {
+        "source": "32534",
+        "target": "29233"
+      },
+      {
+        "source": "32766",
+        "target": "29233"
+      },
+      {
+        "source": "32806",
+        "target": "29233"
+      },
+      {
+        "source": "35155",
+        "target": "29233"
+      },
+      {
+        "source": "29245",
+        "target": "29250"
+      },
+      {
+        "source": "29247",
+        "target": "29250"
+      },
+      {
+        "source": "32534",
+        "target": "29250"
+      },
+      {
+        "source": "34978",
+        "target": "29250"
+      },
+      {
+        "source": "35020",
+        "target": "29250"
+      },
+      {
+        "source": "29224",
+        "target": "29251"
+      },
+      {
+        "source": "29239",
+        "target": "29251"
+      },
+      {
+        "source": "29243",
+        "target": "29251"
+      },
+      {
+        "source": "32787",
+        "target": "29251"
+      },
+      {
+        "source": "35001",
+        "target": "29251"
+      },
+      {
+        "source": "29228",
+        "target": "29239"
+      },
+      {
+        "source": "29251",
+        "target": "29239"
+      },
+      {
+        "source": "29252",
+        "target": "29239"
+      },
+      {
+        "source": "32787",
+        "target": "29239"
+      },
+      {
+        "source": "35001",
+        "target": "29239"
+      },
+      {
+        "source": "29227",
+        "target": "29228"
+      },
+      {
+        "source": "29232",
+        "target": "29228"
+      },
+      {
+        "source": "29252",
+        "target": "29228"
+      },
+      {
+        "source": "29257",
+        "target": "29228"
+      },
+      {
+        "source": "34630",
+        "target": "29228"
+      },
+      {
+        "source": "29250",
+        "target": "29247"
+      },
+      {
+        "source": "29253",
+        "target": "29247"
+      },
+      {
+        "source": "32593",
+        "target": "29247"
+      },
+      {
+        "source": "32949",
+        "target": "29247"
+      },
+      {
+        "source": "34331",
+        "target": "29247"
+      },
+      {
+        "source": "29238",
+        "target": "29234"
+      },
+      {
+        "source": "29242",
+        "target": "29234"
+      },
+      {
+        "source": "29247",
+        "target": "29234"
+      },
+      {
+        "source": "32593",
+        "target": "29234"
+      },
+      {
+        "source": "34287",
+        "target": "29234"
+      },
+      {
+        "source": "29229",
+        "target": "29253"
+      },
+      {
+        "source": "29247",
+        "target": "29253"
+      },
+      {
+        "source": "32787",
+        "target": "29253"
+      },
+      {
+        "source": "34260",
+        "target": "29253"
+      },
+      {
+        "source": "35391",
+        "target": "29253"
+      },
+      {
+        "source": "29247",
+        "target": "29254"
+      },
+      {
+        "source": "32374",
+        "target": "29254"
+      },
+      {
+        "source": "34260",
+        "target": "29254"
+      },
+      {
+        "source": "34630",
+        "target": "29254"
+      },
+      {
+        "source": "34835",
+        "target": "29254"
+      },
+      {
+        "source": "29223",
+        "target": "29225"
+      },
+      {
+        "source": "33470",
+        "target": "29225"
+      },
+      {
+        "source": "35461",
+        "target": "29225"
+      },
+      {
+        "source": "35551",
+        "target": "29225"
+      },
+      {
+        "source": "36665",
+        "target": "29225"
+      },
+      {
+        "source": "37065",
+        "target": "29225"
+      },
+      {
+        "source": "29228",
+        "target": "29232"
+      },
+      {
+        "source": "29230",
+        "target": "29232"
+      },
+      {
+        "source": "29236",
+        "target": "29232"
+      },
+      {
+        "source": "29244",
+        "target": "29232"
+      },
+      {
+        "source": "29260",
+        "target": "29232"
+      },
+      {
+        "source": "29232",
+        "target": "29260"
+      },
+      {
+        "source": "29236",
+        "target": "29260"
+      },
+      {
+        "source": "33261",
+        "target": "29260"
+      },
+      {
+        "source": "34179",
+        "target": "29260"
+      },
+      {
+        "source": "34548",
+        "target": "29260"
+      },
+      {
+        "source": "29234",
+        "target": "29242"
+      },
+      {
+        "source": "29260",
+        "target": "29242"
+      },
+      {
+        "source": "35001",
+        "target": "29242"
+      },
+      {
+        "source": "35441",
+        "target": "29242"
+      },
+      {
+        "source": "35469",
+        "target": "29242"
+      },
+      {
+        "source": "29228",
+        "target": "29227"
+      },
+      {
+        "source": "29237",
+        "target": "29227"
+      },
+      {
+        "source": "29245",
+        "target": "29227"
+      },
+      {
+        "source": "29252",
+        "target": "29227"
+      },
+      {
+        "source": "29258",
+        "target": "29227"
+      },
+      {
+        "source": "29227",
+        "target": "29258"
+      },
+      {
+        "source": "29261",
+        "target": "29258"
+      },
+      {
+        "source": "33261",
+        "target": "29258"
+      },
+      {
+        "source": "34490",
+        "target": "29258"
+      },
+      {
+        "source": "35020",
+        "target": "29258"
+      },
+      {
+        "source": "29238",
+        "target": "29261"
+      },
+      {
+        "source": "29245",
+        "target": "29261"
+      },
+      {
+        "source": "29246",
+        "target": "29261"
+      },
+      {
+        "source": "29258",
+        "target": "29261"
+      },
+      {
+        "source": "35926",
+        "target": "29261"
+      },
+      {
+        "source": "29262",
+        "target": "29224"
+      },
+      {
+        "source": "35089",
+        "target": "29224"
+      },
+      {
+        "source": "35140",
+        "target": "29224"
+      },
+      {
+        "source": "35500",
+        "target": "29224"
+      },
+      {
+        "source": "35926",
+        "target": "29224"
+      },
+      {
+        "source": "29232",
+        "target": "29244"
+      },
+      {
+        "source": "29245",
+        "target": "29244"
+      },
+      {
+        "source": "29246",
+        "target": "29244"
+      },
+      {
+        "source": "29247",
+        "target": "29244"
+      },
+      {
+        "source": "29256",
+        "target": "29244"
+      },
+      {
+        "source": "29239",
+        "target": "29241"
+      },
+      {
+        "source": "32752",
+        "target": "29241"
+      },
+      {
+        "source": "35243",
+        "target": "29241"
+      },
+      {
+        "source": "35534",
+        "target": "29241"
+      },
+      {
+        "source": "36838",
+        "target": "29241"
+      },
+      {
+        "source": "13660",
+        "target": "31911"
+      },
+      {
+        "source": "23661",
+        "target": "31911"
+      },
+      {
+        "source": "31909",
+        "target": "31911"
+      },
+      {
+        "source": "35130",
+        "target": "31911"
+      },
+      {
+        "source": "35178",
+        "target": "31911"
+      },
+      {
+        "source": "35242",
+        "target": "31911"
+      },
+      {
+        "source": "31911",
+        "target": "31909"
+      },
+      {
+        "source": "35190",
+        "target": "31909"
+      },
+      {
+        "source": "35202",
+        "target": "31909"
+      },
+      {
+        "source": "35207",
+        "target": "31909"
+      },
+      {
+        "source": "35285",
+        "target": "31909"
+      },
+      {
+        "source": "35344",
+        "target": "31909"
+      },
+      {
+        "source": "35401",
+        "target": "31909"
+      },
+      {
+        "source": "35218",
+        "target": "35203"
+      },
+      {
+        "source": "35220",
+        "target": "35203"
+      },
+      {
+        "source": "35221",
+        "target": "35203"
+      },
+      {
+        "source": "35223",
+        "target": "35203"
+      },
+      {
+        "source": "35227",
+        "target": "35203"
+      },
+      {
+        "source": "35249",
+        "target": "35203"
+      },
+      {
+        "source": "35298",
+        "target": "35203"
+      },
+      {
+        "source": "35303",
+        "target": "35203"
+      },
+      {
+        "source": "35307",
+        "target": "35203"
+      },
+      {
+        "source": "29235",
+        "target": "29229"
+      },
+      {
+        "source": "29253",
+        "target": "29229"
+      },
+      {
+        "source": "34287",
+        "target": "29229"
+      },
+      {
+        "source": "35926",
+        "target": "29229"
+      },
+      {
+        "source": "36560",
+        "target": "29229"
+      },
+      {
+        "source": "29226",
+        "target": "33013"
+      },
+      {
+        "source": "29230",
+        "target": "33013"
+      },
+      {
+        "source": "29244",
+        "target": "33013"
+      },
+      {
+        "source": "29246",
+        "target": "33013"
+      },
+      {
+        "source": "35036",
+        "target": "33013"
+      },
+      {
+        "source": "29230",
+        "target": "29231"
+      },
+      {
+        "source": "29246",
+        "target": "29231"
+      },
+      {
+        "source": "32787",
+        "target": "29231"
+      },
+      {
+        "source": "33013",
+        "target": "29231"
+      },
+      {
+        "source": "35036",
+        "target": "29231"
+      },
+      {
+        "source": "29223",
+        "target": "29226"
+      },
+      {
+        "source": "29224",
+        "target": "29226"
+      },
+      {
+        "source": "29225",
+        "target": "29226"
+      },
+      {
+        "source": "33013",
+        "target": "29226"
+      },
+      {
+        "source": "34331",
+        "target": "29226"
       }
     ],
     "categories": [{
-        "name": "コンピテンシー"
+        "name": "freshman",
+        "itemStyle": {
+          "normal": {
+            "color": "#FB6452"
+          }
+        }
       },
       {
-        "name": "課題設定"
+        "name": "commitmentor",
+        "itemStyle": {
+          "normal": {
+            "color": "#4883B2"
+          }
+        }
       },
       {
-        "name": "解決意向"
+        "name": "hrmentor",
+        "itemStyle": {
+          "normal": {
+            "color": "#FED83D"
+          }
+        }
       },
       {
-        "name": "個人的実行力"
-      },
-      {
-        "name": "創造性"
-      },
-      {
-        "name": "論理的思考"
-      },
-      {
-        "name": "疑う力"
-      },
-      {
-        "name": "内的価値"
-      },
-      {
-        "name": "ヴィジョン"
-      },
-      {
-        "name": "自己効力"
-      },
-      {
-        "name": "成長"
-      },
-      {
-        "name": "興味"
-      },
-      {
-        "name": "耐性"
-      },
-      {
-        "name": "感情コントロール"
-      },
-      {
-        "name": "表現力"
-      },
-      {
-        "name": "共感・傾聴力"
-      },
-      {
-        "name": "外交性"
-      },
-      {
-        "name": "柔軟性"
-      },
-      {
-        "name": "決断力"
-      },
-      {
-        "name": "寛容"
-      },
-      {
-        "name": "影響力の行使"
-      },
-      {
-        "name": "情熱・宣教力"
-      },
-      {
-        "name": "組織への働きかけ"
-      },
-      {
-        "name": "地球市民"
-      },
-      {
-        "name": "組織へのコミットメント"
-      },
-      {
-        "name": "誠実さ"
+        "name": "others",
+        "itemStyle": {
+          "normal": {
+            "color": "#ccc"
+          }
+        }
       }
     ]
   }

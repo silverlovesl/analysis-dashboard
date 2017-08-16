@@ -94,9 +94,10 @@
       <div id="correlationChartObj" echarts [options]="correlationChart" class="demo__chart"></div>
     </div>
   </section>
+
   <section class="ui-g-12 ui-lg-6 ui-md-6 ui-sm-12">
     <div class="card shadow-box ui-shadow-1">
-      <div echarts [options]="forceLayoutChart" class="demo__chart"></div>
+      <div echarts [options]="lineChart" class="demo__chart"></div>
     </div>
   </section>
   <section class="ui-g-6 ui-lg-6 ui-md-6 ui-sm-12">
@@ -107,6 +108,11 @@
   <section class="ui-g-6 ui-lg-6 ui-md-6 ui-sm-12">
     <div class="card shadow-box ui-shadow-1">
       <div echarts [options]="mapChart_WORLD" class="demo__chart"></div>
+    </div>
+  </section>
+  <section class="ui-g-6 ui-lg-6 ui-md-6 ui-sm-12">
+    <div class="card shadow-box ui-shadow-1">
+      <div echarts [options]="forceLayoutChart" class="demo__chart"></div>
     </div>
   </section>
 </article>

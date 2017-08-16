@@ -26,6 +26,7 @@ export class DemoComponent implements OnInit {
   public correlationChart: any;
   public plotChart: any;
   public forceLayoutChart: any;
+  public lineChart: any;
   public mapChart_JAPAN: any;
   public mapChart_WORLD: any;
   public correlationChartAxisLabel: string[] = ['課題設定', '解決意向', '個人的実行力', '創造性', '論理的思考', '疑う力', '内的価値', 'ヴィジョン', '自己効力', '成長', '興味', '耐性', '感情コントロール', '表現力', '共感・傾聴力', '外交性', '柔軟性', '決断力', '寛容', '影響力の行使', '情熱・宣教力', '組織への働きかけ', '地球市民', '組織へのコミットメント', '誠実さ'];
@@ -54,6 +55,11 @@ export class DemoComponent implements OnInit {
     //ForceLayoutデータチャート
     this.demoService.getDynamic<{ data: Array<any>, links: Array<any>, categories: Array<any> }>("/demo/forcelayout-chart.json", {}).subscribe(res => {
       this.initForceLayoutChart(res);
+    });
+
+    //ラインチャート
+    this.demoService.getDynamic<any>("/demo/line-chart.json", {}).subscribe(res => {
+      this.initLineChart(res);
     });
 
     //地図(Japan)データ取得
@@ -206,12 +212,6 @@ export class DemoComponent implements OnInit {
           left: 'center',
         }
       ],
-      tooltip: {
-        trigger: 'item',
-        axisPointer: {
-          type: 'shadow'
-        }
-      },
       grid: {
         left: '10%',
         right: '10%',
@@ -278,14 +278,11 @@ export class DemoComponent implements OnInit {
       },
       tooltip: {},
       legend: [{
-        formatter: function (name) {
-          return echarts.format.truncateText(name, 40, '14px Microsoft Yahei', '…');
-        },
-        tooltip: {
-          show: true
-        },
-        selectedMode: 'false',
-        bottom: 20
+        // selectedMode: 'single',
+        data: ["freshman", "commitmentor", "hrmentor", "others"],
+        right: '5%',
+        orient: 'vertical',
+        align: 'left'
       }],
       animationDuration: 3000,
       animationEasingUpdate: 'quinticInOut',
@@ -318,6 +315,35 @@ export class DemoComponent implements OnInit {
         }
       }]
     };
+  }
+
+  private initLineChart(data: any) {
+    this.lineChart = {
+      title: {
+        text: '収益変化'
+      },
+      tooltip: {
+        trigger: 'axis'
+      },
+      legend: {
+        data: ['A', 'B', 'C', 'E', 'D']
+      },
+      grid: {
+        left: '3%',
+        right: '4%',
+        bottom: '3%',
+        containLabel: true
+      },
+      xAxis: {
+        type: 'category',
+        boundaryGap: false,
+        data: ['A', 'B', 'C', 'D', 'E']
+      },
+      yAxis: {
+        type: 'value'
+      },
+      series: data
+    }
   }
 
   private initJapanMapChart(geoData: Geography) {
