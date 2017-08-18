@@ -7,7 +7,12 @@ import { AppComponent } from '../../app.component';
 @Component({
   selector: 'app-menu',
   templateUrl: './menu.component.html',
-  styleUrls: ['./menu.component.scss']
+  styleUrls: ['./menu.component.scss'],
+  animations: [
+    trigger('menuPin', [
+      state('fixed', style({ transform: 'rotate(90deg)' })), state('unfixed', style({ transform: 'rotate(0deg)' })), transition('visible <=> hidden', animate('400ms cubic-bezier(0.86, 0, 0.07, 1)'))
+    ])
+  ]
 })
 export class AppMenuComponent implements OnInit {
 
@@ -131,13 +136,7 @@ export class AppMenuComponent implements OnInit {
   `,
   animations: [
     trigger('subMenu', [
-      state('hidden', style({
-        height: '0'
-      })),
-      state('visible', style({
-        height: '*'
-      })),
-      transition('visible <=> hidden', animate('400ms cubic-bezier(0.86, 0, 0.07, 1)'))
+      state('hidden', style({ height: '0' })), state('visible', style({ height: '*' })), transition('visible <=> hidden', animate('400ms cubic-bezier(0.86, 0, 0.07, 1)'))
     ])
   ]
 })
